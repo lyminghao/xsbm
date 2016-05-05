@@ -1,0 +1,75 @@
+A {
+	COLOR: #fff
+}
+A:focus {
+	COLOR: #fff
+}
+A:hover {
+	COLOR: #fff
+}
+.btn-default {
+	BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #fff; COLOR: #333; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid; text-shadow: none
+}
+.btn-default:hover {
+	BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #fff; COLOR: #333; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid; text-shadow: none
+}
+.btn-default:focus {
+	BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #fff; COLOR: #333; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid; text-shadow: none
+}
+HTML {
+	BACKGROUND-COLOR: #8EE5EE; background-attachment:fixed; background-repeat:no-repeat
+}
+BODY {
+	BACKGROUND-COLOR: #8EE5EE; background-attachment:fixed; background-repeat:no-repeat
+}
+BODY {
+	TEXT-ALIGN: center; COLOR: #000000; text-shadow: 0 1px 3px rgba(0, 0, 0, .5); box-shadow: inset 0 0 100px rgba(0, 0, 0, .5)
+}
+.site-wrapper {
+	MIN-HEIGHT: 100%; WIDTH: 100%; DISPLAY: table; HEIGHT: 100%
+}
+.site-wrapper-inner {
+	DISPLAY: table-cell; VERTICAL-ALIGN: top
+}
+.cover-container {
+	MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+.inner {
+	PADDING-BOTTOM: 30px; PADDING-LEFT: 30px; PADDING-RIGHT: 30px; PADDING-TOP: 30px
+}
+.masthead-brand {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px
+}
+.masthead-nav > LI {
+	DISPLAY: inline-block
+}
+.masthead-nav > LI + LI {
+	MARGIN-LEFT: 20px
+}
+.masthead-nav > LI > A {
+	BORDER-BOTTOM: transparent 2px solid; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #fff; FONT-SIZE: 16px; FONT-WEIGHT: bold
+}
+.masthead-nav > LI > A:hover {
+	BACKGROUND-COLOR: transparent
+}
+.masthead-nav > LI > A:focus {
+	BACKGROUND-COLOR: transparent
+}
+.masthead-nav > .active > A {
+	BORDER-BOTTOM-COLOR: #fff; COLOR: #fff
+}
+.masthead-nav > .active > A:hover {
+	BORDER-BOTTOM-COLOR: #fff; COLOR: #fff
+}
+.masthead-nav > .active > A:focus {
+	BORDER-BOTTOM-COLOR: #fff; COLOR: #fff
+}
+.cover {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; PADDING-TOP: 0px
+}
+.cover .btn-lg {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; FONT-WEIGHT: bold; PADDING-TOP: 10px
+}
+.mastfoot {
+	COLOR: #000
+}

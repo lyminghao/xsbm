@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML lang=en><HEAD><TITLE>NENU_ACM校赛报名系统</TITLE>
+	<META charset=utf-8>
+	<META content=IE=edge http-equiv=X-UA-Compatible>
+	<META name=viewport content="width=device-width, initial-scale=1">
+	<META name=description content="">
+	<META name=author content="">
+	<LINK rel="shortcut icon" href="./image/favicon.ico"><!-- Bootstrap core CSS -->
+	<LINK rel=stylesheet href="css/bootstrap.min.css"><!-- Custom styles for this template -->
+	<LINK rel=stylesheet href="css/cover.css">
+	<!--[if lt IE 9]>
+	<SCRIPT src="js/ie8-responsive-file-warning.js"></SCRIPT>
+	<![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+	<SCRIPT src="js/html5shiv.js"></SCRIPT>
+	<SCRIPT src="js/respond.min.js"></SCRIPT>
+	<![endif]-->
+	<META name=GENERATOR content="MSHTML 8.00.7600.17267">
+    <style>
+    	.sumain{
+			margin:0 auto;
+			width:500px;	
+		}
+		.txtcontrol{
+			display: inline-block;
+			margin-left:30px
+		}
+		.radiocontrol{
+			margin-right:80px;
+			font-size:20px;
+		}
+		.txt{
+			font-size:25px;
+		}
+		.btnmargin{
+			margin-left:50px;
+			margin-right:50px;
+		}
+    </style>
+</HEAD>
+<BODY>
+	<DIV class=inner>
+		<H2 class=masthead-brand><b>第十届东北师范大学程序设计竞赛报名表</b></H2>
+	</DIV>
+	<div class=sumain>
+    	<form action="process.php" method="post">
+            <table width="480px">
+            	<tr style="height:60px">
+                	<td width="30%" class="txt">姓&nbsp;&nbsp;名</td>
+                    <td width="70%"><input name="name" class="form-control input-lg" type="text" required></td>
+                </tr>
+                <tr>
+                	<td width="30%" class="txt">昵&nbsp;&nbsp;称</td>
+                    <td width="70%"><input name="nickname" class="form-control input-lg" type="text" required></td>
+                </tr>
+                <tr style="height:60px">
+                	<td width="30%" class="txt">性&nbsp;&nbsp;别</td>
+                    <td width="70%">
+                    <span class="radiocontrol"><input type="radio" name="sex" value="男" required>&nbsp;汉&nbsp;子</span>
+    				<span class="radiocontrol"><input type="radio" name="sex" value="女" required>&nbsp;妹&nbsp;纸</span>
+                    </td>
+                </tr>
+                <tr>
+                	<td width="30%" class="txt">学&nbsp;&nbsp;号</td>
+                    <td width="70%"><input name="number" class="form-control input-lg" type="text" required></td>
+                </tr>
+                <tr style="height:60px">
+                	<td width="30%" class="txt">学&nbsp;&nbsp;院</td>
+                    <td width="70%">
+                    	<select name="school" class="form-control input-lg">
+                        	<option>计算机科学与信息技术学院</option>
+  							<option>信息与软件工程学院</option>
+  							<option>数学与统计学院</option>
+  							<option>物理学院</option>
+  							<option>化学学院</option>
+                            <option>长春理工大学</option>
+                            <option>其它院系</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                	<td width="30%" class="txt">专&nbsp;&nbsp;业</td>
+                    <td width="70%">
+                    	<select name="major" class="form-control input-lg">
+                        	<option>计算机科学与技术</option>
+  							<option>软件工程</option>
+  							<option>教育技术学</option>
+  							<option>图书馆学</option>
+  							<option>数学与应用数学</option>
+                            <option>统计学</option>
+                            <option>物理学</option>
+                            <option>电气工程及其自动化</option>
+                            <option>电子信息科学与技术</option>
+                            <option>化学</option>
+                            <option>网络工程</option>
+                            <option>其它专业</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr style="height:60px">
+                	<td width="30%" class="txt">年&nbsp;&nbsp;级</td>
+                    <td width="70%">
+                    	<select name="grade" class="form-control input-lg">
+                        	<option>本科2012级</option>
+  							<option>本科2013级</option>
+  							<option>本科2014级</option>
+  							<option>本科2015级</option>
+  							<option>研究生2013级</option>
+                            <option>研究生2014级</option>
+                            <option>研究生2015级</option>
+                            <option>其它年级</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                	<td width="30%" class="txt">手&nbsp;&nbsp;机</td>
+                    <td width="70%"><input name="phone" class="form-control input-lg" type="text" required></td>
+                </tr>
+                <tr style="height:60px">
+                	<td width="30%" class="txt">邮&nbsp;&nbsp;箱</td>
+                    <td width="70%"><input name="email" class="form-control input-lg" type="text" required></td>
+                </tr>
+            </table>
+            <div style="margin-top:20px">
+                	<button type="submit" class="btn btn-lg btn-success btnmargin">提交</A>
+                
+                    <button type="reset" class="btn btn-lg btn-danger btnmargin">重置</A>
+            </div>
+       </form>
+	</div>
+    <p style="font-size:20px">注：参加过省级及以上ACM/ICPC现场赛的本科三年级及以上同学须打星参赛，不参与排名和评奖。</p>
+    <p style="font-size:20px">如对报名事宜有任何疑问，请联系刘明昊（lyminghao@qq.com）</p>
+</BODY>
+</HTML>
